@@ -3,19 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>copy</string>
+	<string>code_init_unavailable</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) &lt;#type#&gt; *&lt;#typeName#&gt;;</string>
+	<string>+ (instancetype)new UNAVAILABLE_ATTRIBUTE;
+- (instancetype)init UNAVAILABLE_ATTRIBUTE;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>71778E87-D793-4A0F-B9B8-C193120D3E63</string>
+	<string>B737A4D9-4D8F-4616-9E02-F9B0F9EE8CB7</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Init unavailable</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>copy property</string>
+	<string>Init unavailable</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
